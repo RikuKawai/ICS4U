@@ -4,6 +4,7 @@ public class Recursion {
 
 	public static void main(String[] args) {
 		starString(6);
+		System.out.println(permut(10, 4));
 	}
 	public static void starString(int n) {
 		if (n >= 0) {
@@ -15,5 +16,14 @@ public class Recursion {
 			System.out.print("\n");
 		}
 		return;
+	}
+	public static int permut(int n, int r) {
+		return (factorial(n) / factorial(n-r));
+	}
+	public static int factorial(int n) {
+		if (n == 1) {
+			return 1;
+		}
+		return n*factorial(n-1);
 	}
 }
