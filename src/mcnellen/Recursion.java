@@ -1,7 +1,13 @@
 package mcnellen;
 
 public class Recursion {
-
+	/**
+	 * Recursion.java
+	 * Recursion problems
+	 * @author Quinlan McNellen
+	 * @version 1.0
+	 * @date 09/19/2016
+	 */
 	public static void main(String[] args) {
 		starString(6);
 		System.out.println(permut(10, 4));
