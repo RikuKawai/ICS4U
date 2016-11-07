@@ -34,7 +34,6 @@ public class Search {
 	 */
 	private static int binary(int[] array, int target, int startIndex, int endIndex) {
 		int midIndex = (startIndex + endIndex) / 2;
-		
 		if (startIndex > endIndex) {
 			return -1;
 		}
@@ -80,7 +79,6 @@ public class Search {
 	 */
 	private static int binary(double[] array, double target, int startIndex, int endIndex) {
 		int midIndex = (startIndex + endIndex) / 2;
-		
 		if (startIndex > endIndex) {
 			return -1;
 		}
@@ -126,7 +124,6 @@ public class Search {
 	 */
 	private static int binary(String[] array, String target, int startIndex, int endIndex) {
 		int midIndex = (startIndex + endIndex) / 2;
-		
 		if (startIndex > endIndex) {
 			return -1;
 		}
